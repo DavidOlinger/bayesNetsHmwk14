@@ -1,6 +1,6 @@
 
 from mains import build_net
-from bayesnet_SOLN import *
+from bayesnet import *
 import unittest
 
 class TestBayesianNetwork(unittest.TestCase):

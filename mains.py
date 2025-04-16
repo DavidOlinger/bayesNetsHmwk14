@@ -2,11 +2,13 @@ import sys
 import time
 import math
 import datetime
+import pandas as pd
+import plotly.express as px
 
 from bayesnet import *
 
 # Set to True during debugging, to run an abbreviated set of experiements
-# Set to False to run the full set for completing the assignment
+# Set to False in order to run the full set for completing the assignment
 short_experiments_only = True
 
 def build_net(filename: str):
